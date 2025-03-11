@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/Nceco/cop/compare/v0.0.6...v0.0.7) (2025-03-11)
+
+
+### Features
+
+* 新增changelog ([757b354](https://github.com/Nceco/cop/commit/757b35499b092d9990217553018e5bd1039ac4d1))
+
 ### [0.0.6](https://github.com/Nceco/cop/compare/v0.0.5...v0.0.6) (2025-03-11)
 
 
