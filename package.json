@@ -1,6 +1,6 @@
 {
   "name": "cop",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "7mu_12 design library",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,7 @@
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepublishOnly": "father doctor && npm run build",
-    "release": "standard-version && git push --follow-tags"
+    "release": "standard-version"
   },
   "authors": [],
   "license": "MIT",
