@@ -1,6 +1,6 @@
 {
   "name": "cop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "7mu_12 design library",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,7 +16,8 @@
     "lint": "npm run lint:es && npm run lint:css",
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
-    "prepublishOnly": "father doctor && npm run build"
+    "prepublishOnly": "father doctor && npm run build",
+    "release": "standard-version"
   },
   "authors": [],
   "license": "MIT",
@@ -68,6 +69,7 @@
     "prettier-plugin-packagejson": "^2.2.18",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "standard-version": "^9.5.0",
     "stylelint": "^14.9.1"
   }
 }
