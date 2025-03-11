@@ -63,6 +63,11 @@ export default defineConfig({
       ]
     }
   },
+  alias: {
+    public: '/public',
+    src: '/src',
+    "cop": '/packages'
+  },
   resolve:{
     atomDirs: tailPkgList.map((dir) => ({ type: 'component', dir })),
   },
